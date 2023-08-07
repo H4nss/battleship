@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <title>Battleship</title>
+	
+    <meta charset="utf-8">
+	<meta name="description" content="JS Battleship is a strategy type guessing game">
+	<meta name="keywords" content="javascript, jQuery, game, battleship, strategy">
+	<meta name="author" content="DF">
+	
+	<link rel="stylesheet" href="statki.css">
+    <link href="https://fonts.googleapis.com/css2?family=Germania+One&display=swap" rel="stylesheet">
+
+    <script src="jquery-3.2.1.min.js"></script>
+	<script src="statki.js"></script>
+
+</head>
+
+<body>
+	
+	<h1>Battleship</h1>
+		
+		<div id = "container">
+
+			<div id = "left" class = "side">Destroy all enemy battleships! <br /><br />
+								The opponent has: <br /> <br />
+								1 x dreadnought <br />
+								2 x destroyer   <br />
+								3 x cruiser
+			</div>
+            <div id = "board"></div>
+			<div id = "right" class = "side">Become the best ship destroyer. Destroy all ships with: <br /><br />
+				 				less than 28 shots - EXPERIENCED <br />
+								less than 22 shots - HUNTER <br />
+								less than 16 shots - LEGEND
+			</div>
+			<div style="clear:both;"> </div>
+            <div id = "score">Shot counter: 0</div>
+			<div id = "result">We are waiting for the shot!</div>
+			
+		</div>
+	
+</body>
+</html>
